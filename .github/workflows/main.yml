@@ -15,4 +15,4 @@ jobs:
         username: ${{ secrets.FTPUSERNAME }}
         password: ${{ secrets.FTPPASSWORD }}
         protocol: sftp
-        server-dir: test-push-ftp/
+        server-dir: as/test-push-ftp/
