@@ -11,11 +11,11 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: yogfromthehear.sftp.wpengine.com
+        server: ap-southeast-1.sftpcloud.io
         username: ${{ secrets.FTPUSERNAME }}
         password: ${{ secrets.FTPPASSWORD }}
         protocol: sftp
-        server-dir: public_html/test-push-ftp/
+        server-dir: test-push-ftp/
 
 
 
