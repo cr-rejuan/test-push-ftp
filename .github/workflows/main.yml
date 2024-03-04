@@ -14,7 +14,7 @@ jobs:
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        server: ap-southeast-1.sftpcloud.io
+        server: files.000webhost.com
         username: ${{ secrets.FTPUSERNAME }}
         password: ${{ secrets.FTPPASSWORD }}
         protocol: ftp
